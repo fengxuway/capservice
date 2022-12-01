@@ -45,4 +45,7 @@ python manage.py createsuperuser
 ```
 pip freeze > requirements.txt
 ```
-
+### 从 requirements 中安装依赖
+```
+pip install -r requirements.txt
+```
