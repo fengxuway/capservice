@@ -11,6 +11,12 @@ python3 -m venv ./.venvs/mypro
 source ~/.venvs/mypro/bin/activate
 ```
 
+### 从 requirements 中安装依赖
+```
+pip install -r requirements.txt
+```
+
+
 ### 创建 django 模块
 ```
 django-admin startproject capmanager
@@ -44,8 +50,4 @@ python manage.py createsuperuser
 ### 收集 requirements
 ```
 pip freeze > requirements.txt
-```
-### 从 requirements 中安装依赖
-```
-pip install -r requirements.txt
 ```
